@@ -16,7 +16,7 @@ endif
 let g:colors_name="olive"
 
 "=======================================================
-hi Normal		guifg=#D9D9C3	    guibg=#262600
+hi Normal		guifg=#D9D9C3	    guibg=#333300
 hi Cursor		guifg=black	    guibg=white
 hi CursorIM		guifg=black	    guibg=green
 hi Directory		guifg=gold				gui=underline
@@ -51,7 +51,7 @@ hi WarningMsg		guifg=palevioletred
 " ============================================================
 " syntax highlighting groups
 " ============================================================
-hi Comment		guifg=darkkhaki	    guibg=#404000	gui=underline 
+hi Comment		guifg=darkkhaki	    guibg=#4C4C00	gui=underline 
 
 hi Constant		guifg=navajowhite
 hi String		guifg=greenyellow
@@ -114,6 +114,6 @@ hi VimOption		guifg=gold
 " TeX / LaTeX
 hi texSection		guifg=greenyellow
 " tex between { and }
-hi texMatcher		guifg=yellowgreen			gui=underline
+hi texMatcher		guifg=yellowgreen			gui=none
 hi texMath							gui=none
 
